@@ -1,0 +1,4 @@
+export const CHANGE_STATUS_DAT_CUOC = 'CHANGE STATUS DAT CUOC';
+export const DAT_CUOC_SCORE = 'DAT CUOC SCORE';
+export const REFRESH_GAME = 'REFRESH GAME';
+export const PLAY_GAME = 'PLAY GAME';

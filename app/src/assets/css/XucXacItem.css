@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Pony';
+  src: url('./../fonts/Pony.ttf');
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+.BauCuaGame {
+  font-family: 'Pony';
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(253, 153, 0);
+}
+.btn-red {
+  background-color: rgb(254, 0, 0);
+}
+.btn-pink {
+  background-color: rgb(231, 6, 205);
+}
+.btn-green {
+  background-color: rgb(15, 124, 21);
+}
+.text-yellow, .text-yellow:hover {
+  color: rgb(255, 244, 32);
+}
+.scene {
+  width: 50px;
+  height: 50px;
+  margin-top: 80px;
+  perspective: 50px;
+}
+
+.cube {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform infinite;
+  transform: translateZ(-25px) ;
+
+}
+
+
+.cube__face {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  line-height: 40px;
+  font-size: 5px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+
+.front  { 
+  transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(25px);
+ }
+.right  { 
+  transform: rotateY( 90deg) rotateX(0deg) rotateZ(0deg)  translateZ(25px);
+ }
+.back   { 
+  transform: rotateY(180deg) rotateX(0deg) rotateZ(0deg)  translateZ(25px);
+ }
+.left   { 
+  transform: rotateY(-90deg) rotateX(0deg) rotateZ(0deg)  translateZ(25px);
+ }
+.top    { 
+  transform: rotateX( 90deg) rotateY(0deg) rotateZ(0deg)  translateZ(25px);
+ }
+.bottom { 
+  transform: rotateX(-90deg) rotateY(0deg) rotate(0deg)  translateZ(25px);
+ }
+
+label { margin-right: 10px; }
