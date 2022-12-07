@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mini_game/static/css/main.0ce2be5d.css",
+    "main.js": "/mini_game/static/js/main.c7011703.js",
+    "static/js/787.b3d2a419.chunk.js": "/mini_game/static/js/787.b3d2a419.chunk.js",
+    "static/media/Pony.ttf": "/mini_game/static/media/Pony.99ddd1e5ee531d1eb8a2.ttf",
+    "index.html": "/mini_game/index.html",
+    "main.0ce2be5d.css.map": "/mini_game/static/css/main.0ce2be5d.css.map",
+    "main.c7011703.js.map": "/mini_game/static/js/main.c7011703.js.map",
+    "787.b3d2a419.chunk.js.map": "/mini_game/static/js/787.b3d2a419.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ce2be5d.css",
+    "static/js/main.c7011703.js"
+  ]
+}
